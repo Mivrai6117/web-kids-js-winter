@@ -32,6 +32,7 @@
 //     console.log(`${number} not found`)
 //     if(number == 5) {
 //         console.log("number found")
+        // break
 //     }
 //     console.log(`looking for number ${number}`)
 // }
@@ -96,7 +97,13 @@
 
 // ex 7
 
-let color = ["red" , "blue" , "green"];
-for (colors of color){
-    console.log(`i like the color ${colors}`);
+// let color = ["red" , "blue" , "green"];
+// for (colors of color){
+//     console.log(`i like the color ${colors}`);
+// }
+
+// ex 8
+
+let calculator = [1, 2, 3, 4, 5]
+for (let i = 0; i < calculator.length; i++) {
 }
