@@ -104,6 +104,17 @@
 
 // ex 8
 
-let calculator = [1, 2, 3, 4, 5]
-for (let i = 0; i < calculator.length; i++) {
+// let calculator = [1, 2, 3, 4, 5]
+// for (let cal of calculator){
+        
+//         console.log(15)
+// }
+
+// ex 9
+
+let numbers = ["талх", "сүү", "өндөг", "бяслаг"]
+for (let numbers = count + 1){
+        console.log(`there are 5 items`);
 }
+
+// ex 10
