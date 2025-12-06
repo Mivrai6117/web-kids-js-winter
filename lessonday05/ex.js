@@ -1,6 +1,6 @@
 // ex 1
 
-const { createElement } = require("react")
+// const { createElement } = require("react")
 
 // let Ptag = document.querySelector("#text")
 // Ptag.addEventListener("click" , function (){
@@ -44,11 +44,23 @@ const { createElement } = require("react")
 // })
 
 // ex 6
+// let item = prompt("what do you want to add to the list?")
+// let ul = document.querySelector("list1")
+// let li = document.querySelector("addItem")
+// ul.addEventListener("click" , function(){
+//     li.textContent = `${item}`
+// })
 
-let ul = document.querySelector("#ul")
-let additem = document.querySelector("#addItem")
-let li = document.createElement("#li")
-additem.addEventListener("click" , function(){
-    document.body.appendChild("ul")
-    document.createElement("li")
+
+// ex 7
+let ul = document.getElementById("list2")
+let remove = document.getElementById("remove")
+remove.addEventListener("click" , function(){
+    ul.lastElementChild.remove();
+})
+
+// ex 8
+let change = document.getElementById("change")
+let img = document.getElementById("image")
+change.addEventListener("click" , function() {
 })

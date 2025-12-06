@@ -30,7 +30,7 @@ divTag.textContent = "hellooo kitten!"
 document.body.appendChild(divTag);
 
 // remove element
-let  li = document.getElementById("groon")
+let li = document.getElementById("groon")
 li.remove();
 
 // even listener
