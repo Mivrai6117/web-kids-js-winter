@@ -1,0 +1,8 @@
+main{
+    place-items: center;
+    display: grid;
+}
+#value{
+    font-size: 6rem;
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>age calculator</h1>
+    <input type="text" id="birthYear" placeholder="Enter your birth year">
+    <button onclick="calculateAge()">Calculate Age</button>
+    <p id="result"></p>
+    <script>
+        function calculateAge(){
+            let birthYearInput = document.getElementById("birthYear")
+            let birthYear = parseInt(birthYearInput.value);
+
+            if (
+                isNaN(birthYear) ||
+                birthYear < 1900 ||
+                birthYear > new Date().getFullYear()
+            ) {
+                alert ("please enter a valid birth year")
+                return;
+            }
+
+            let currentYear = new Date().getFullYear();
+            let age = currentYear - birthYear;
+
+            console.log(`your age is : ${age}`);
+
+            let result = document.getElementById("result");
+            result.textContent = age;
+            
+        }
+    </script>
+</body>
+</html>
